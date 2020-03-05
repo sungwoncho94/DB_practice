@@ -1,0 +1,17 @@
+CREATE TABLE classmates (
+    id INTEGER PRIMARY KEY,
+    name TEXT
+);
+
+CREATE TABLE classmates(
+    name TEXT,
+    age INT,
+    address TEXT
+);
+
+INSERT INTO classmates(id, name, age, adress) VALUES(1, "조뮁", 26, "중랑구");
+
+SELECT * FROM classmates;
+
+INSERT INTO classmates VALUES("조뮁", 26, "먹골"), ("샤민", 26, "서울대입구"), ("혜련", 27, "구리"), ("신졍", 25, "안암"), ("백땀땀", 27, "역삼");
+
